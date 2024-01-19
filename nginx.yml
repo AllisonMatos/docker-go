@@ -3,7 +3,7 @@ services:
   nginx:
     image: nginx:latest
     ports:
-      - 8085:8085
+      - 1234:1234
     deploy:
       mode: replicated
       replicas: 2
