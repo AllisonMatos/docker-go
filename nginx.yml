@@ -1,0 +1,9 @@
+version: '3.2'
+services:
+  nginx:
+    image: nginx:latest
+    ports:
+      - 8085:8085
+    deploy:
+      mode: replicated
+      replicas: 2
